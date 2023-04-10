@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+
+ul li a {
+    color: white !important;
+}
+section#carrousel {
+   height: 600px;
+   /* background: rgb(34, 31, 44);
+    background-blend-mode: darken; */
+}
+
+#carouselExampleDark{
+    width: 100%;
+    height: 100%;
+    
+}
+
+div.slide1 {
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slide2 {
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slide3 {
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/ndere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slide4 {
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/yok.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.carousel-caption{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transition: ea; */
+}
+
+div.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+div.carousel-item{
+    height: 100%;
+}
+div.carousel-item img{
+    height: 100%;
+    
+}
+button.carousel-control-prev{
+    color: blue !important;
+}
+
+/* section.commentaire {
+    height: 900px;
+    background-color: rgb(195, 145, 241);
+} */
+
+/* .boutonReg{
+    height: 700px;
+} */
+
+.boutonReg div.region {
+    height: 100%;
+}
+
+.boutonReg div.container {
+    position: relative;
+}
+
+section.Apropos{
+    width: 100%;
+}
+span.text-danger{
+    border-bottom: 1px solid red;
+}
+
+footer.contact{
+    height: 200px;
+}
+.Apropos div.container{
+    position: relative;
+}
+
+
+div.polka1{
+    position: absolute;
+    bottom: 0;
+    left: -25%;
+    background-image: radial-gradient(rgb(231, 229, 229) 1px , transparent 1px);
+    background-size: 40px 40px;
+    width: 450px;
+    height: 200px;
+    
+}
+div.polka2{
+    position: absolute;
+    top: 0;
+    right: -25%;
+    background-image: radial-gradient(rgb(231, 229, 229) , transparent 2px);
+    background-size: 40px 40px;
+    width: 450px;
+    height: 200px;
+    
+}
+
+div.polka3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: radial-gradient(rgb(87, 76, 243) , transparent 2px);
+    background-size: 40px 40px;
+    width: 400px;
+    height: 200px;
+    
+}
+
+div.polka4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: radial-gradient(rgb(87, 76, 243) , transparent 2px);
+    background-size: 40px 40px;
+    width: 400px;
+    height: 200px;
+    
+}
+
+.blur{
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+    z-index: 5;
+    box-shadow: 0px -9px 7px 11px rgb(42, 5, 87);
+}
+.no-display{
+    display: block !important;
+}
+
+
+/*style regions*/
+
+/* section Region */
+li.nav-item a.nav-link{
+    transition: .3s;
+}
+li.nav-item a.nav-link:hover {
+    background-color: rgb(48, 47, 48) !important;
+    text-align: center;
+    transform: translateX(10px);
+    border-radius: 7px;
+}
+
+section.img-slider2 {
+    height: 600px;
+ }
+
+ div#carouselExampleDark{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+a.btn-secondary{
+    width: 200px !important;
+}
+a.btn-warning{
+    width: 200px !important;
+}
+a.btn-success{
+    width: 200px !important;
+}
+a.btn-danger{
+    width: 200px !important;
+}
+a.btn-primary{
+    width: 200px !important;
+}
+a.btn-info{
+    width: 200px !important;
+}
+
+div.tab-content{
+    width: 100%;
+}
+
+
+/* chevron slider */
+
+i.fa-chevron-left{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 3%;
+    color: white;
+    border: 1px solid #242323;
+    background-color: #1a1918;
+    padding: 5px 10px;
+    border-radius: 50%;
+    opacity: .3;
+    transition: .3;
+}
+i.fa-chevron-left:hover{
+    opacity: .9;
+}
+i.fa-chevron-right{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    right: 3%;
+    color: white;
+    border: 1px solid #242323;
+    background-color: #1a1918;
+    padding: 5px 10px;
+    border-radius: 50%;
+    opacity: .3;
+
+}
+i.fa-chevron-right:hover{
+    opacity: .9;
+}
+
+
+/*formulaire */
+
+div.formulaire{
+    position: absolute;
+    background-color: #fff;
+    left: 35%;
+    top: 10%;
+    z-index: 115;
+    width: 30%;
+    border: 1px solid rgba(102, 102, 102, 0.5);
+    border-radius: 10px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width : 900px) {
+    div.formulaire{
+        width: 60%;
+        left: 19%;
+        top: 10%;
+    } 
+}
+@media only screen and (max-width : 583px) {
+    div.formulaire{
+        width: 80%;
+        left: 10%;
+        top: 10%;
+    } 
+}
+@media only screen and (min-width : 850px) {
+
+    i.fa-chevron-left{
+        left: 10%;
+    }
+
+    i.fa-chevron-right{
+        right: 10%;
+    }
+}
+
+
+
+/* section region1 */
+div.slideA1{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/diamaré1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slideA2{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/Ext1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slideA3{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/Ext2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* section region2 */
+div.slideB1{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/ndere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slideB2{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/NORD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* section region3 */
+div.slideC1{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/EST-CENTRE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* section region4 */
+div.slideD1{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/MFOUNDI\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slideD2{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/MFOUNDI2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* section region5 */
+div.slideE1{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/WOURI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.slideE2{
+    background-image : linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/MOUNGO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
